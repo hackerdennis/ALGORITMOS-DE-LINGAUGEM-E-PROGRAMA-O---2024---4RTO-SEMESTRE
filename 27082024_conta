@@ -1,0 +1,67 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hackerdennis/ALGORITMOS-DE-LINGAUGEM-E-PROGRAMA-O---2024---4RTO-SEMESTRE/blob/main/27082024_conta\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "27/08/2024"
+      ],
+      "metadata": {
+        "id": "yY28qEBwG5s3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num=int(input(\"digite valor inteiro: \"))\n",
+        "print(type(num))\n",
+        "quoc=num//2\n",
+        "resto=num%2\n",
+        "print(quoc)\n",
+        "print(resto)\n"
+      ],
+      "metadata": {
+        "id": "HCJytar0Hlzz",
+        "outputId": "2df338e6-0e9d-43df-9075-6a3f55664faa",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 66,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite valor inteiro: 9\n",
+            "<class 'int'>\n",
+            "4\n",
+            "1\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Olá, este é o Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
